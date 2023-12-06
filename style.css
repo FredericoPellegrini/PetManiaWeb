@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel-principal{
+    background-color: #ffffff;
+    width: 570px;
+    height: 350px;
+    border-radius: 30px;
+    text-align: right; 
+    padding: 20px;
+}
+
+h1{
+    font-family:  Mouse Memoirs, sans-serif;
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(1, 141, 185);
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+input{
+    margin-bottom: 17px;
+    height: 40px;
+}
+
+.btn-enviar{
+    width: 90px;
+    background-color: rgb(1, 141, 185);
+    color: #ffffff;
+    border: rgb(1, 141, 185);
+    border-radius: 40px;
+    margin: auto;
+}
+
+a{
+    margin-right: 45px;
+    text-decoration: none;
+    color: rgb(1, 141, 185);
+}
+
+a:hover{
+    color: rgb(6, 94, 131);
+}
+
+.btn-enviar:hover{
+    background-color: rgb(6, 94, 131);
+    cursor: pointer;
+}

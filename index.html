@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&display=swap" rel="stylesheet">
     <title>Login | PetMania</title>
 </head>
 <body>
-    <h1>Acesse sua conta</h1>
+    <div class="background">
+        <div class="painel-principal">
+            <h1>Bem-vindo a PetMania!</h1>
 
-    <div class="form-principal">
-        <form id="user-form">
-            <label for="usuario">Usuário</label>
-            <input type="text" id="usuario" required><br>
+            <form class="formulario">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Senha">
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </form>
 
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" required><br>   
-            
-            <button type="button" id="botaologin">Fazer Login</button>
-
-        </form>
+            <a href=" ">Esqueceu a senha?</a>
+        </div>
     </div>
+
+
     
 </body>
 </html>
