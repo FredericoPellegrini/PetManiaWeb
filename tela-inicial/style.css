@@ -83,7 +83,7 @@ body{
 }
 
 .cadastro:hover, .compra:hover, .agendamento:hover, .cliente:hover{
-    background-color: rgb(204, 230, 238);
+    background-color: whitesmoke;
     cursor: pointer;
 }
 
