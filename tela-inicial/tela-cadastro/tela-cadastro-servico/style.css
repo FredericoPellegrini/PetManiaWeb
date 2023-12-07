@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel-principal{
+    background-color: #ffffff;
+    width: 610px;
+    height: 540px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 0px;
+}
+
+.primeira-seccao{
+    width: 580px;
+    height: 40px;
+    background-color: #F0F8FF;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 2px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.primeira-seccao h1{
+    margin: 0 auto;
+    font-family:  Mouse Memoirs, sans-serif;
+}
+
+.btn-voltar{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.titulo{
+    grid-column: 2/3;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.segunda-seccao{
+    width: 580px;
+    height: 185px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 0px;
+
+}
+
+.photo{
+    background-color: #F0F8FF;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0.5px solid #000;
+}
+
+.credenciais{
+    background-color: #F0F8FF;
+    grid-column: 2/3;
+    text-align: center;
+    padding: 3px;
+    margin: 9px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+    border: 0.5px solid #000;
+}
+
+.photo img{
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.opc{
+    margin: 10px;
+
+}
+
+.opc input{
+    height: 40px;
+    width: 150px;
+    padding: 2px;
+}
+
+.terceira-seccao{
+    background-color: #F0F8FF;
+    width: 570px;
+    height: 60px;
+    margin: 0 auto;
+    border: 0.5px solid black;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0px;
+}
+
+
+.terceira-seccao .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.terceira-seccao .lupa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns input{
+    margin-right: 20px;
+    height: 40px;
+    width: 75px;
+}
+
+.btna{
+    background-color: darkgreen;
+    color: #fff;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+}
+
+.btnb{
+    background-color: darkred;
+    color: #fff;
+    border: 1px solid darkred;
+    border-radius: 10px;
+}
+
+.btna:hover{
+    background-color: rgb(8, 149, 8);
+    cursor: pointer;
+}
+
+.btnb:hover{
+    background-color: rgb(189, 17, 17);
+    cursor: pointer;
+}
+
+.lupa input{
+    height: 40px;  
+    width: 300px;  
+    text-align: right;
+}
+
+.tabela {
+    background-color: #F0F8FF;
+    width: 95%; 
+    height: 195px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabela table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif; 
+}
+
+.tabela th {
+    background-color: #D3D3D3;
+    font-weight: normal; 
+}
+
+.tabela td {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal; 
+    font-style: normal; 
+    color: #000; 
+}
