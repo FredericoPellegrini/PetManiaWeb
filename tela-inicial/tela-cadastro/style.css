@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first-line{
+    background-color: #F0F8FF;
+    width: 570px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.btn-voltar{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.titulo{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+h1{
+    margin-top:0;
+    margin-right: 20px;
+    font-family: Mouse Memoirs, sans-serif;
+}
+
+
+
+.container{
+    background-color: #F0F8FF;
+    width: 570px;
+    height: 420px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.opc1, .opc2, .opc3, .opc4{
+    background-color: #000;
+    height: 140px;
+    width: 275px;
+    margin-top: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.opc1 img, .opc2 img, .opc3 img, .opc4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.opc1 h1, .opc2 h1, .opc3 h1, .opc4 h1{
+    text-align: center;
+}
+
+.opc1:hover, .opc2:hover, .opc3:hover, .opc4:hover{
+    filter: brightness(75%);
+}
