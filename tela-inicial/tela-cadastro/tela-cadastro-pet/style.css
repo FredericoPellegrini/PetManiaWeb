@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel-principal{
+    background-color: #ffffff;
+    width: 610px;
+    height: 540px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 0px;
+}
+
+h1{
+    font-family:  Mouse Memoirs, sans-serif;
+
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    padding: 10px;
+    margin: 12px;
+}
+
+.btn-voltar, .btn-enviar{
+    width: 70px;
+    height: 40px;
+}
+
+.btn-voltar{
+    background-color: brown;
+    color: #fff;
+    border: 1px solid brown;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-enviar{
+    background-color: darkgreen;
+    color: #fff;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btns{
+    margin-top: 30px;
+}
+
+.escolha{
+    margin-top: 70px;
+}

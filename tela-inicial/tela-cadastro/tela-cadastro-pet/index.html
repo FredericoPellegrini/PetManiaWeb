@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar Pet | Petmania</title>
+</head>
+<body>
+    <div class="painel-principal">
+        <h1>Adicionar Pet</h1>
+
+        <div>
+            <form  class="formulario">
+                <input type="text" placeholder="CPF Cliente">
+
+                <input type="text" placeholder="Raça">
+
+                <input type="number" placeholder="Idade">
+
+                <div class="escolha">
+                    <input type="radio" id="gato" name="raca" value="gato">
+                    <label for="raca">
+                        <img src="cat.png">
+                    </label>
+
+                    <input type="radio" id="cao" name="raca" value="cao">       
+                    <label for="raca">
+                        <img src="dog.png">
+                    </label>
+                </div>
+
+                <div class="btns">
+                    <button type="button" class="btn-voltar">Voltar</button>
+                    <input type="submit" value="Salvar" class="btn-enviar">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
