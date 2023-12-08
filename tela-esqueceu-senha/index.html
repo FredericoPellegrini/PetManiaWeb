@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <title>Esqueci minha senha | PetMania</title>
+</head>
+<body>
+    <div class="background">
+        <div class="painel-principal">
+            <h1>Esqueci minha senha</h1>
+
+            <p class="instrucoes">Para redefinir sua senha, informe o e-mail cadastrado na sua conta e lhe enviaremos um link com as instruções.</p>
+
+            <form class="formulario" id="esqueci-senha-form" action="processar_esqueci_senha.php" method="post">
+                <input type="email" name="email" placeholder="Informe seu e-mail" required>
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </form>
+
+            <a href=" " class="btn-cancelar">Cancelar</a>
+        </div>
+    </div>
+</body>
+</html>

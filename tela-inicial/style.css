@@ -29,11 +29,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.logo h1{
-    font-family: Mouse Memoirs, sans-serif;
-    color: rgb(86, 157, 144);
+.logo img {
+    width: 60%;
+    height: auto;
 }
 
 .cadastro {
@@ -44,6 +45,7 @@ body{
     align-items: center;
     font-family: Mouse Memoirs, sans-serif;
     color: #67bece;
+    
 }
 
 .compra {
@@ -53,7 +55,8 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: Mouse Memoirs, sans-serif;
-    color: #009688;    
+    color: #009688;
+        
 }
 
 .agendamento {
@@ -64,6 +67,7 @@ body{
     align-items: center;
     font-family: Mouse Memoirs, sans-serif;
     color:#F44336;
+    
 }
 
 .cliente {
@@ -74,6 +78,7 @@ body{
     align-items: center;
     font-family: Mouse Memoirs, sans-serif;
     color:#4db6e7;
+    
 }
 
 .cadastro, .compra, .agendamento, .cliente{

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <title>Cadastro | PetMania</title>
+</head>
+<body>
+    <div class="background">
+        <div class="painel-principal">
+            <h1>Cadastre-se no PetMania!</h1>
+
+            <form class="formulario" id="cadastro-form">
+                <input type="text" placeholder="Nome" id="nome" name="nome">
+                <input type="text" placeholder="E-mail" id="email" name="email">
+                <input type="password" placeholder="Senha" id="senha" name="senha">
+                <input type="password" placeholder="Repetir Senha" id="repetir-senha" name="repetir-senha">
+                <input type="submit" value="Cadastrar" class="btn-cadastrar" id="btn-cadastrar">
+            </form>
+            <div id="cadastro-sucesso" class="aviso-sucesso">Cadastro realizado com sucesso!</div>
+
+            <script src="script.js"></script>
+            <div class="cadastre-se">
+                <p>Já tem uma conta?</p>
+                <a href="#" class="btn-login">Faça login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

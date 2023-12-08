@@ -11,7 +11,7 @@ body {
 .painel-principal {
     background-color: #ffffff;
     width: 570px;
-    height: 400px;
+    height: 500px;
     border-radius: 30px;
     text-align: right;
     padding: 20px;
@@ -29,17 +29,6 @@ h1 {
     margin: 30px;
 }
 
-.esqueceu-senha {
-    margin-bottom: 10px; /* Adicionando espaço abaixo do link */
-    text-decoration: none;
-    color: rgb(1, 141, 185);
-    font-size: 18px; /* Aumentando o tamanho da fonte */
-}
-
-.esqueceu-senha:hover {
-    color: rgb(6, 94, 131);
-}
-
 input {
     margin-bottom: 17px;
     height: 40px;
@@ -48,42 +37,52 @@ input {
     padding: 5px;
 }
 
-.btn-entrar {
-    width: 110px;
+/* ... (códigos anteriores) */
+
+.btn-cadastrar {
+    width: 130px; /* Aumentando a largura do botão */
     background-color: rgb(1, 141, 185);
     color: #ffffff;
     border: rgb(1, 141, 185);
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: Mouse Memoirs, sans-serif;
-    margin: auto;
+    border-radius: 10px;
+    padding: 8px; /* Aumentando o preenchimento interno */
+    font-size: 18px; /* Ajustando o tamanho da fonte */
     cursor: pointer; /* Adicionando o ponteiro ao passar o mouse para indicar que é clicável */
+    margin: auto; /* Centralizando o botão */
+    margin-top: 10px;
 }
 
-.btn-entrar:hover {
-    background-color: rgb(6, 94, 131);
-}
 
 .cadastre-se {
     display: flex;
     justify-content: flex-end; /* Alinhando à direita */
     align-items: center; /* Alinhando verticalmente ao centro */
-    margin-top: 20px; /* Adicionando espaço acima do bloco */
+    margin-top: -10px; /* Subindo mais o bloco */
+    margin-right: 35px;
 }
 
 .cadastre-se p {
-    color: #000000; /* Cor do texto "Não tem uma conta?" */
-    margin-right: 5px; /* Adicionando espaço à direita do texto */
+    color: #000000; /* Cor do texto "Já tem uma conta?" */
     font-size: 18px;
 }
 
-.btn-cadastre-se {
+.btn-login {
     color: rgb(1, 141, 185);
     text-decoration: none;
-    font-size: 18px; /* Aumentando o tamanho da fonte */
+    font-size: 18px;
+    margin-left: 5px;
 }
 
-.btn-cadastre-se:hover {
+.btn-login:hover {
     color: rgb(6, 94, 131);
-    cursor: pointer;
+}
+
+.aviso-sucesso {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
 }
