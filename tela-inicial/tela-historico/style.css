@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    background-color: #ffffff;
+    width: 610px;
+    height: 540px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 0px;
+}
+
+.primeira-seccao{
+    width: 580px;
+    height: 40px;
+    background-color: #F0F8FF;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 2px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.primeira-seccao h1{
+    margin: 0 auto;
+    font-family:  Mouse Memoirs, sans-serif;
+}
+
+.btn-voltar{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.titulo{
+    grid-column: 2/3;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.segunda-seccao{
+    width: 580px;
+    height: 85px;
+    background-color: #F0F8FF;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+.terceira-seccao{
+    width: 580px;
+    height: 360px;
+    background-color: #F0F8FF;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 2px;    
+}
+
+.segunda-seccao input{
+    margin-top: 15px;
+    height: 50px;
+
+
+}
+
+.segunda-seccao .caixa{
+    width: 450px;
+}
+
+
+.tabela {
+    background-color: #F0F8FF;
+    width: 95%; 
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tabela table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+
+.tabela th, .tabela td {
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif; 
+}
+
+.tabela th {
+    background-color: #D3D3D3;
+    font-weight: normal; 
+}
+
+.tabela td {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal; 
+    font-style: normal; 
+    color: #000; 
+}

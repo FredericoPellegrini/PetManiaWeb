@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    background-color: #ffffff;
+    width: 610px;
+    height: 540px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 0px;
+}
+
+h1{
+    font-family: Mouse Memoirs, sans-serif;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.formulario input{
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.botoes{
+    margin-left: 400px;
+}
+
+.botoes input{
+    width: 75px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.botoes .cancelar{
+    background-color: rgb(63, 63, 63);
+    border: 1px solid rgb(63, 63, 63);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botoes .agendar{
+    background-color: #018db9;
+    border: 1px solid #018db9;
+    color: #fff;
+    border-radius: 10px;
+}

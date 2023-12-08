@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(1, 141, 185) 50%, rgb(30, 29, 29) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menu {
+    background-color: #ffffff;
+    width: 610px;
+    height: 540px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 0px;
+}
+
+.primeira-seccao{
+    width: 580px;
+    height: 40px;
+    background-color: #F0F8FF;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 2px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.primeira-seccao h1{
+    margin: 0 auto;
+    font-family: Mouse Memoirs, sans-serif;
+}
+
+.btn-voltar{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.titulo{
+    grid-column: 2/3;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.seccao-compras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5PX;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.op {
+    flex: 0 0 calc(50% - 10px);
+    height: 100px; /* ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.op input {
+    margin-right: 5px;
+}
+
+.op img{
+    width:60px;
+    height: 60px;
+}
+
+.info1{
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.informacoes h3{
+    margin-top: 10px;
+}
+
+.informacoes p{
+    margin-top: -20px;
+    color: orangered
+}
+
+.informacoes .label{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.label input{
+    width: 20px;
+}
+
+.op2 img{
+    margin-right: 50px;
+}
+
+.op3 img, .op4 img{
+    margin-right: 40px;
+}
+
+.op5 img, .op6 img{
+    margin-right: 20px;
+}
+
+.btn-pedido{
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.btn-pedido input{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(226, 75, 10);
+    border: 1px solid rgb(226, 75, 10);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.btn-pedido input:hover{
+    background-color: orangered;
+}
